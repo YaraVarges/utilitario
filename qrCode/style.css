@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(41,13,55,1) 18%, rgba(65,56,152,1) 67%, rgba(0,212,255,1) 100%);
+  }
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#container {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+}
+
+#imgCode {
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    
+}
+
+#buttonQR{
+    margin-top: 5px;
+}
+
+button{
+    background-color: aquamarine;
+    border-radius: 3px;
+    border-color: aquamarine;
+    width: 120px;
+    height: 30px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    margin-top: 5px;
+  }
+  
+  .linha {
+    list-style-type: none;
+    float: left; 
+    padding:5px 10px;
+  }
+  
+  span {
+    letter-spacing: 1px;
+    border: 1px solid rgb(132, 25, 255);
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+  }
+  
+  span:hover {
+    font-weight: bold;
+    border: 1px solid rgb(132, 25, 255);
+    border-radius: 5px;
+    padding: 4px 6px 4px 6px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+footer{
+    text-align: center;
+    position: absolute;
+	bottom: 0;
+	width: 100vw;
+}

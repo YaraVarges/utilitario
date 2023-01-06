@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR-Code Gerador</title>
+</head>
+<body>
+    <div id="menu">  
+        <ul>
+            <li class="linha">
+                <a class="link"  href="../index.html"><span>Inicio</span></a>
+            </li>
+            <li class="linha">
+                <a class="link"  href="../senhas/index.html"><span>Gerador de Senhas</span></a>
+            </li>
+            <li class="linha">
+                <a class="link"  href="./index.html"><span>Gerador de QrCode</span></a>
+            </li>
+            <li class="linha">
+                <a class="link"  href="#"><span>Outros</span></a>
+            </li>
+        </ul>
+    </div>
+    <div id="container">
+        <div>
+            <h1>Gerador de QRCode</h1>
+            
+            <input id="QRCode" type="text" value="">
+        </div>
+        <div id="buttonQR">
+            <button id="buttonQR" onclick="gerarQRcode()">Gerar QRCode</button>
+        </div>        
+        
+    </div>
+    
+    <div id="imgCode">
+       <img id="qrcodeImg" src="./img/QR.png" > 
+    </div>
+    
+
+    
+
+    <script src="./script.js"></script>
+</body>
+<footer> Desenvolvido por Yara Varges Nunes - Contato: varges98@gmail.com</footer>
+</html>
